@@ -53,4 +53,19 @@ You can download the data from this link
 https://drive.google.com/file/d/1wl70cS_s3T-AVWFNHdd3zG-q11MIC20a/view?usp=sharing
 
 
-1) 
+What you should do
+------------------
+
+1 - Download and load the data as a dataframe using pandas library
+2 - Discover the data and Check the type of your variables (features) and check for the missing data for each feature
+3 - Count the number of survived and dead people according to gender and pclass
+4 - Plot histogrames for all features
+5 - Show the relation ship between survival and Age
+6 - Show the relation ship between survival - SibSp and surivaval-parch
+7 - Make a new feature "familly_size" = SibSp + parch + 1
+8 - Find the average age of both male and female passengers
+9 - Find the average age of both survived and dead people
+10 - Transform your categorical data to numerical data usign OneHotEncoding
+11 - Build a classification model and evaluate its performance using accuracy metrics and show the confusion matrix
+12 - Compute other evaluation metrics such as precision and recall
+
