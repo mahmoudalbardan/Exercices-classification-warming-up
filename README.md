@@ -26,9 +26,8 @@ The test set should be used to see how well your model performs on unseen data. 
 
 Variable Notes
 --------------
-pclass: A proxy for socio-economic status (SES)
-
-1st = Upper
+ - pclass: A proxy for socio-economic status (SES)
+ - 1st = Upper
 
 2nd = Middle
 
