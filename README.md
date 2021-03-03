@@ -47,7 +47,8 @@ What you will use
 -----------------
 - `pandas`
 - `numpy`
-- `scikit-learn`
+- `scikit-learn` 
+- `matplotlib` or `seaborn`
 
 What you should do
 ------------------
