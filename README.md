@@ -43,6 +43,12 @@ You can download the data from this link
 https://drive.google.com/file/d/1wl70cS_s3T-AVWFNHdd3zG-q11MIC20a/view?usp=sharing
 
 
+What you will use
+-----------------
+- `pandas`
+- `numpy`
+- `scikit-learn`
+
 What you should do
 ------------------
 
@@ -56,6 +62,6 @@ What you should do
  - Find the average `age` of both survived and dead people
  - Transform your categorical data to numerical data usign OneHotEncoding and Scale your dataset using MinMaxScaler, StandardScaler
  - After scaling, plot the histogrames of some features and conclude the difference between the two scaling method
- - Build a classification model and evaluate its performance using accuracy metrics and show the confusion matrix
+ - Build a classification model using `scikit-learn` models, evaluate its performance using accuracy metrics and show the confusion matrix
  - Compute other evaluation metrics such as precision and recall
 
