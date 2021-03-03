@@ -1,4 +1,4 @@
-# TD 
+# TD - 1
 
 
 The Challenge
@@ -55,7 +55,8 @@ What you should do
  - Make a new feature "familly_size" = SibSp + parch + 1
  - Find the average age of both male and female passengers
  - Find the average age of both survived and dead people
- - Transform your categorical data to numerical data usign OneHotEncoding
+ - Transform your categorical data to numerical data usign OneHotEncoding and Scale your dataset using MinMaxScaler, StandardScaler
+ - After scaling, plot the histogrames of some features and conclude the difference between the two scaling method
  - Build a classification model and evaluate its performance using accuracy metrics and show the confusion matrix
  - Compute other evaluation metrics such as precision and recall
 
