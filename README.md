@@ -47,14 +47,13 @@ What you should do
 ------------------
 
  - Download and load the data as a dataframe using pandas library
- - Discover the data and Check the type of your variables (features) and check for the missing data for each feature
- - Count the number of survived and dead people according to gender and pclass
- - Plot histogrames for all features
- - Show the relation ship between survival and Age
- - Show the relation ship between survival - SibSp and surivaval-parch
- - Make a new feature "familly_size" = SibSp + parch + 1
- - Find the average age of both male and female passengers
- - Find the average age of both survived and dead people
+ - Discover the data, Check the type of your variables (which are categorical and which are numerical) and check for the missing data for each feature
+ - Plot histogrames for all features to see how it is distributed 
+ - Count the number of survived and dead people according to `gender` and `pclass`
+ - Show the relation ship between `survival` and `Age`, `SibSp` and `parch` individually (survival-age, survival-SiSp, survival-parch) using visual plots
+ - Make a new feature numerical `familly_size = SibSp + parch + 1` and a boolean feature `Is_Alone=0` if `familly_size==1` else 0
+ - Find the average `age` of both male and female passengers
+ - Find the average `age` of both survived and dead people
  - Transform your categorical data to numerical data usign OneHotEncoding and Scale your dataset using MinMaxScaler, StandardScaler
  - After scaling, plot the histogrames of some features and conclude the difference between the two scaling method
  - Build a classification model and evaluate its performance using accuracy metrics and show the confusion matrix
